@@ -1,5 +1,5 @@
 .musica-body {
-  background-color: #2A0A12;
+  background-color: #086A87;
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8,20 +8,15 @@
   height: 100%;
 }
 
-.navbar-inverse {
-  background-color: white;
-  width: 90%;
-  min-height: 10%;
-  border: none;
-  display: block;
-}
-
-.img-social {
-  width: 2em;
-  height: 2em;
-}
-
 .img-logo{
   width: 10em;
   height: 10em;
+}
+
+.button{
+  margin-top: 6.8em;
+}
+
+.navbar{
+  background-color: #80FF00;
 }
