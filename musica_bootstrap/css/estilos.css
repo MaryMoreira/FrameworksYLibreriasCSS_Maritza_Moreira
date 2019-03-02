@@ -13,16 +13,27 @@
   height: 10em;
 }
 
-.button{
+/*.button{
   margin-top: 6.8em;
-}
+}*/
 
 .navbar{
   background-color: #80FF00;
 }
 
+.btn-link:hover{
+    color: #fff;
+    background-color: #00b3db;
+}
+
+
+
 @media (min-width: 1px) and (max-width:900px){
-  .button{
-    margin-top: 2.8em;
+  .col-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
+
 }

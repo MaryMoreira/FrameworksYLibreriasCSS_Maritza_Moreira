@@ -13,47 +13,45 @@
   </head>
   <body class="musica-body">
     <header class="container" style="background-color:white">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="row align-items-end">
+        <div class="col-lg-4 col-centered">
             <img class="img-logo" src="img/logo4.jpg"/>
         </div>
-        <div class="col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-4 offset-xs-4">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-4 btn-group">
-              <a href="https://www.youtube.com" target="_blank" type="button" class="btn btn-yt btn-danger button"><i class="fab fa-youtube"></i></a>
-              <a href="https://www.facebook.com" target="_blank" type="button" class="btn btn-fb btn-primary button"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com" target="_blank" type="button" class="btn btn-ins btn-info button"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.pinterest.com" target="_blank" type="button" class="btn btn-pin btn-danger button"><i class="fab fa-pinterest"></i></a>
-              <a href="https://www.twitter.com" target="_blank" type="button" class="btn btn-tw btn-info button"><i class="fab fa-twitter"></i></a>
+        <div class="col-lg-4 offset-lg-4 col-centered pb-2">
+            <div class="btn-group pl-5" role="group">
+              <button type="button" class="btn btn-yt btn-danger button" onclick="window.open('http://google.com')"><i class="fab fa-youtube"></i></button>
+              <button type="button" class="btn btn-fb btn-primary button"><i class="fab fa-facebook-f"></i></button>
+              <button type="button" class="btn btn-ins btn-info button"><i class="fab fa-instagram"></i></button>
+              <button type="button" class="btn btn-pin btn-danger button"><i class="fab fa-pinterest"></i></button>
+              <button type="button" class="btn btn-tw btn-info button"><i class="fab fa-twitter"></i></button>
             </div>
-          </div>
         </div>
       </div>
 
     </header>
     <nav class="container navbar navbar-expand-sm bg-light justify-content-center">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-success" type="button" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-success" type="button" href="#">Grupos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-success" type="button" href="#">Artistas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-success" type="button" href="#">Top10</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-success" type="button" href="#">Letras</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-success" type="button" href="#">Acordes</a>
-        </li>
-      </ul>
+      <div class="row col-centered">
+        <div class="col-lg-2">
+          <button class="btn btn-link" type="button" href="index.html">Inicio</button>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-link" type="button" href="index.html">Grupos</button>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-link" type="button" href="index.html">Artistas</button>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-link" type="button" href="index.html">Top10</button>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-link" type="button" href="index.html">Letras</button>
+        </div>
+        <div class="col-lg-2">
+          <button class="btn btn-link" type="button" href="index.html">Acordes</button>
+        </div>
+      </div>
     </nav>
-    <div class="container">
+    <div class="container mt-5">
       <div class="row">
         <div class="col-lg-9 ">
           <div class="row">
@@ -65,15 +63,15 @@
               <img src="img/jj.jpg" class="img-logo">
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-2">
-              <span class="fa fa-user"></span>
+          <div class="row align-items-center">
+            <div class="col-lg-1">
+              <span class="fa fa-user fa-lg float-right"></span>
             </div>
-            <div class="col-lg-10">
-              <textarea class="form-control" rows="2" id="comment"></textarea>
+            <div class="col-lg-11 ml-0 pl-0">
+              <textarea class="form-control ml-0 pl-0" rows="1" id="comment"></textarea>
             </div>
           </div>
-          <div class="row">
+          <div class="row pt-5">
             <div class="col-lg-3">
                 <img src="img/folklor.jpg" class="img-logo">
             </div>
@@ -83,24 +81,26 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-1 ml-auto">
               <span class="fa fa-user"></span>
             </div>
-            <div class="col-lg-10">
-              <textarea class="form-control" rows="2" id="comment"></textarea>
+            <div class="col-lg-11">
+              <textarea class="form-control" rows="1" id="comment"></textarea>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 visible-sm-block">
+        <div class="col-lg-3 col-md-3 col-sm-3 d-none d-sm-block pl-4">
           <div class="row">
             <div class="input-group">
-              <span class="input-group-addon"><i class="fa fa-search"></i></span>
-              <input type="text" class="form-control"/>
+              <div class="input-group-prepend">
+                <div class="input-group-text" id="btnGroupAddon2"><i class="fa fa-search"></i></div>
+              </div>
+              <input class="form-control py-2 border-right-0 border" type="search" placeholder="Buscar">
             </div>
           </div>
-          <div class="row">
+          <div class="row pt-3 pl-3">
             <ul class="list-unstyled">
-              <li>Pasillo</li>
+              <li class="border">Pasillo</li>
               <li>San Juanito</li>
               <li>Albazo</li>
               <li>Pasacalle</li>
