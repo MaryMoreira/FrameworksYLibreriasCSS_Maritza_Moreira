@@ -13,17 +13,13 @@
   height: 10em;
 }
 
-/*.button{
-  margin-top: 6.8em;
-}*/
-
 .navbar{
-  background-color: #80FF00;
+  background-color: #2EFEF7;
 }
 
 .btn-link:hover{
     color: #fff;
-    background-color: #00b3db;
+    background-color: #086A87;
 }
 
 
@@ -35,5 +31,7 @@
     margin-right: auto;
     text-align: center;
   }
-
+  .pl-5{
+    padding: 0px !important;
+  }
 }
