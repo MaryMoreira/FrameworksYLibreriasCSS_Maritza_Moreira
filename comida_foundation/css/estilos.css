@@ -18,6 +18,21 @@
   border-bottom: 1px solid white;
 }
 
-div.secondary.callout.text-center{
-  min-height: 242px;
+.contenedor_ci{
+  background-color: #E0F2F7;
+}
+
+.contenido-img{
+  flex-flow: row;
+  margin: 0;
+  padding: 0px;
+}
+
+.img-sc{
+  width: 5em;
+  height: 10em;
+}
+
+img{
+  max-height: 400px;
 }
