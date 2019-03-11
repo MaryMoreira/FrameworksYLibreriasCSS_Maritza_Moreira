@@ -1,6 +1,6 @@
 .gastronomia-body{
   background: url(../img/fondo.jpg);
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -8,9 +8,8 @@
 }
 
 .contenedor{
-  opacity: 0.8;
   width: 90%;
-  background-color: #0489B1;
+  background-color: rgba(174, 191, 134, .4);
 }
 
 .contenedor_t{
@@ -19,7 +18,15 @@
 }
 
 .contenedor_ci{
-  background-color: #E0F2F7;
+  background-color: rgb(234, 247, 206);
+}
+
+.contenedor_cd{
+  background-color: rgb(238, 226, 243);
+}
+
+.callout{
+  background-color: rgb(238, 226, 243);
 }
 
 .contenido-img{
@@ -29,8 +36,11 @@
 }
 
 .img-sc{
-  width: 5em;
+  width: 6.2em;
   height: 10em;
+  margin: 0.3em;
+  padding: 0em;
+  display: block;
 }
 
 img{
