@@ -10,6 +10,8 @@
 .logo{
   width: 150px;
   margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
   float: left;
 }
 
@@ -23,7 +25,16 @@ nav{
 
 .slogan{
   float:right;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   margin-top: 0.5rem;
-  width: 70%;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.social{
+  margin-bottom: 10px;
+}
+
+.contenedor{
+  background-color: white;
 }
