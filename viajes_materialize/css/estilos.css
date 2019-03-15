@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .turismo-body{
   background: url(../img/fondo.jpg);
   background-attachment: fixed;
@@ -13,6 +18,7 @@
   margin-right: 20px;
   margin-left: 100px;
   float: left;
+  border-radius: 15px;
 }
 
 nav{
@@ -35,6 +41,24 @@ nav{
   margin-bottom: 10px;
 }
 
-.contenedor{
-  background-color: white;
+.row .col.l8{
+    width: 64.5%;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.img-entrada{
+  width: 300px;
+  display: block;
+}
+
+.card{
+  margin-right: 10px;
+}
+
+.col .row {
+    margin-left: 5px;
+    margin-right: 5px;
 }
