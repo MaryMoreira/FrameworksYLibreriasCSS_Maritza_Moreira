@@ -4,9 +4,10 @@
 }
 
 .turismo-body{
-  background: url(../img/fondo.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed, fixed;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, top;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -17,7 +18,6 @@
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 100px;
-  float: left;
   border-radius: 15px;
 }
 
@@ -30,7 +30,6 @@ nav{
 }
 
 .slogan{
-  float:right;
   margin-left: 0.5rem;
   margin-top: 0.5rem;
   font-style: oblique;
@@ -61,4 +60,22 @@ nav{
 .col .row {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media (min-width: 1px) and (max-width:600px){
+  .row.block{
+    width: 100%;
+  }
+  .logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-radius: 15px;
+    float: left !important;
+  }
+  #menu li{
+    position:inherit;
+    float: right;
+  }
 }

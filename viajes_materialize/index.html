@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--Importar la fuente de los íconos de Google-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Importar la hojas de estilos de materialize css-->
@@ -11,16 +12,13 @@
     <title>Turismo Ecuador</title>
   </head>
 <body  class="turismo-body">
-  <div class="navbar-fixed">
-    <div class="card-panel green lighten-3"></div>
-  </div>
   <div class="row">
-    <div class="s12 col">
+    <div class="l12 s12 col">
       <nav class="contenedor-1">
         <div class="row nav-wrapper">
-          <div class="s12 col">
-            <img src="img/logo.jpg" class="logo responsive-img z-depth-4 card"/>
-            <ul class="right">
+          <div class="l12 s12 col">
+            <img src="img/logo.jpg" class="left logo responsive-img z-depth-4 card"/>
+            <ul id="menu" class="right">
               <li><a class="waves-effect waves-light btn">Inicio <i class="material-icons left">home</i></a></li>
               <li><a class="waves-effect waves-light btn">Mejores Viajes<i class="material-icons left">star</i></a></li>
               <li><a class="waves-effect waves-light btn">Ubicación<i class="material-icons left">location_on</i></a></li>
@@ -37,11 +35,11 @@
   <div class="row">
     <div class="l1 col">
         <ul class="left">
-          <li><a class="waves-effect waves-light btn-floating social facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="waves-effect waves-light btn-floating social twitter"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="waves-effect waves-light btn-floating social facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="waves-effect waves-light btn-floating social facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="waves-effect waves-light btn-floating social facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="waves-effect waves-light btn-floating social facebook hide-on-small-only"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a class="waves-effect waves-light btn-floating social twitter hide-on-small-only"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="waves-effect waves-light btn-floating social facebook hide-on-small-only"><i class="fab fa-youtube"></i></a></li>
+          <li><a class="waves-effect waves-light btn-floating social facebook hide-on-small-only"><i class="fab fa-pinterest"></i></a></li>
+          <li><a class="waves-effect waves-light btn-floating social facebook hide-on-small-only"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </div>
     <div class="l4 col center">
@@ -63,29 +61,29 @@
   </div>
 
   <div class="row">
-    <div class="l8 col">
+    <div class="l8 s12 col">
       <div class="row block white">
-        <div class="l12 col">
+        <div class="s12 col">
           <img src="img/img-g5.jpg" class="responsive-img z-depth-2 left img-entrada card"/>
           <h4>Mindo</h4>
-          <p class="btn disabled">14 de marzo de 2019<i class="material-icons right">date_range</i></p>
-          <p class="btn disabled">80km al noroeste de Quito<i class="material-icons right">location_on</i></p>
+          <label class="btn disabled">14 de marzo de 2019<i class="material-icons right">date_range</i></label>
+          <label class="btn disabled truncate">80km al noroeste de Quito<i class="material-icons right">location_on</i></label>
           <p style="text-align: justify">Está localizado en un valle, del cual unas 19,000 hectáreas están protegidas en lo que se denomina el Bosque Protector Mindo Nambillo, ecosistema en el cual habitan unas 500 variedades de aves y 90 especies de mariposas. Igualmente en el parque de reserva de Mindo se han identificado más de 170 especies de orquídeas y abundan bromelias, heliconias, helechos, vides, musgos y líquenes. A pesar de ser pequeño en extensión, Mindo alberga unas 500 variedades de pájaros y aproximadamente 90 tipos de mariposas. Además se han encontrado más de 170 especies de orquídeas. Se puede disfrutar de paisajes como el bosque nublado y las ruinas de Tulipe, siguiendo la Eco Ruta del Quinde. También las cascadas de Nambillo es un lugar que no se puede perder.</p><br>
           <p style="text-align: justify">Además de ser ideal para practicar el avistamiento de aves, también hay espacios ideales para deportes de aventura como montañismo, equitación, ciclismo de montaña, descenso de aguas bravas y rafting.</p>
         </div>
       </div>
       <div class="row block white">
-        <div class="l12 col">
+        <div class="s12 col">
           <img src="img/img-g7.jpg" class="responsive-img z-depth-2 left img-entrada card"/>
           <h4>Cuenca</h4>
           <p class="btn disabled">14 de marzo de 2019<i class="material-icons right">date_range</i></p>
-          <p class="btn disabled">80km al noroeste de Quito<i class="material-icons right">location_on</i></p>
+          <p class="btn disabled truncate">80km al noroeste de Quito<i class="material-icons right">location_on</i></p>
           <p style="text-align: justify">Cuenca, oficialmente Santa Ana de los Cuatro Ríos de Cuenca, es una ciudad ecuatoriana, cabecera del cantón Cuenca y capital de la provincia de Azuay, así como su urbe más grande y poblada. Se encuentra atravesada por los ríos Tomebamba, Tarqui, Yanuncay y Machángara, al centro-sur de la región interandina de Ecuador, en la hoya del río Paute, a una altitud de 2550 metros sobre el nivel del mar y con un clima andino de 15 grados Celsius en promedio.Es llamada "Atenas de Ecuador" por su arquitectura, su diversidad cultural, su aporte a las artes, ciencias y letras ecuatorianas, y por ser el lugar de nacimiento de muchos personajes ilustres de la sociedad ecuatoriana.7​ En el censo de 2010 tenía una población de 329 928 habitantes, que la convierte en la tercera ciudad más poblada del país detrás de Guayaquil y Quito. La ciudad es el núcleo del área metropolitana de Cuenca, constituida, además, por ciudades y parroquias rurales cercanas. El conglomerado alberga a 661 685 habitantes, y ocupa la tercera posición entre las conurbaciones de Ecuador.</p><br>
           <p style="text-align: justify">La ciudad lleva el nombre de Santa Ana de los Ríos de Cuenca en honor a la ciudad de Cuenca en España, lugar de nacimiento del virrey español del Perú Andrés Hurtado de Mendoza, quien fue el que mandó a fundar la ciudad al español Gil Ramírez Dávalos y al hecho de que, este lugar, en sus accidentes geográficos se parecen mucho a la ciudad española. Además, el nombre incluye el hecho de que la cruzan cuatro ríos: Tomebamba, Tarqui, Yanuncay y Machángara. El resto del nombre proviene de la tradición española de dedicar a las nuevas ciudades a un santo o santa de la iglesia católica, en este caso a Santa Ana.</p>
         </div>
       </div>
       <div class="row block green lighten-3">
-        <div class="l12 col">
+        <div class="s12 col">
           <h6><strong>Déjanos tu comentario:</strong></h6>
           <div class="row">
             <form>
@@ -113,14 +111,12 @@
         </div>
       </div>
     </div>
-    <div class="l4 col block white center-align">
+    <div class="l4 s12 col block white center-align">
       <div class="row">
         <img src="img/autor.jpg" class="responsive-img z-depth-2 circle"/>
         <h4>Perfil de Autor</h4>
         <div class="divider"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <p>Amante de los lugares mas exóticos, llenos de naturaleza y especies de animales y plantas. Me encanta Ecuador por su fauna y flora variada porque en un solo país encontramos 4 mundos diferentes, Costa, Sierra, Amazonía y las encantadoras Islas Galápagos. Me declaro amante también de las bellezas costeras playas encantadas y hermosas, de la sierra y la hospitalidad de su gente, y la maravillosa naturaleza que se encuentra en la Amazonía Ecuatoriana. viviría cada día recorriendo los maravillosos rincones que nuestro lindo Ecuador ofrece,..... All You Need Is Ecuador</p>
       </div>
 
     </div>
