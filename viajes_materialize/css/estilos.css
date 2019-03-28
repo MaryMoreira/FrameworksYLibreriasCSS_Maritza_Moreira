@@ -5,9 +5,9 @@
 
 .turismo-body{
   background-image: url(../img/fondo.jpg);
-  background-attachment: fixed, fixed;
-  background-repeat: no-repeat, no-repeat;
-  background-position: top, top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
   width: 100%;
   height: 100%;
